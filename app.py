@@ -19,4 +19,5 @@ def contact():
         return "<h1><center>Thank You For Your Submission!</center></h1>"
     return render_template("contact.html")
 
-app.run(debug=True)
+if __name__=="__main"
+    app.run(debug=True)
